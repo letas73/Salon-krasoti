@@ -1,0 +1,19 @@
+.header-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}

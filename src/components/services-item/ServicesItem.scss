@@ -1,0 +1,36 @@
+.services-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 25px;
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  &__link {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 12px;
+    background-color: #37F59A;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+.admin-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 30px;
+    color: #fff;
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 15px;
+
+    &-item {
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      padding: 10px;
+      background-color: #D9D9D9;
+      border-radius: 10px;
+      transition: background-color .1s ease-in-out;
+
+      &:hover {
+        transition: background-color .1s ease-in-out;
+        background-color: #37F59A;
+      }
+    }
+  }
+}
